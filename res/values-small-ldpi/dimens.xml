@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">18dp</dimen>
+    <dimen name="title_margin">5dp</dimen>
+    <dimen name="title_margin_bottom">20dp</dimen>
+    <dimen name="font_size">20dp</dimen>
+    <dimen name="progress_margin_land">10dp</dimen>
+    <dimen name="progress_margin_port">5dp</dimen>
+    <dimen name="margin_port">5dp</dimen>
+    <dimen name="progress_height">20dp</dimen>
+</resources>

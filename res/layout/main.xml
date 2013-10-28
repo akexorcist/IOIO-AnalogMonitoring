@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF" >
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginBottom="@dimen/title_margin_bottom"
+	    android:background="@drawable/title_bar"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true"
+	    android:orientation="vertical" >
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="@dimen/title_margin"
+	        android:gravity="center"
+	        android:text="Analog Monitoring"
+	        android:textColor="#FFFFFF"
+	        android:textSize="@dimen/title_size"
+	        android:textStyle="bold" />
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="Set warning voltage"
+	        android:textColor="#000000"
+	        android:textSize="@dimen/font_size" />
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="( 0 - 3.3 V )"
+	        android:textColor="#000000"
+	        android:textSize="@dimen/font_size" />
+	    <EditText
+	        android:id="@+id/etxtVolt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:selectAllOnFocus="true"
+	        android:text="2.7"
+	        android:textColor="#FFFFFF"
+	        android:textSize="@dimen/font_size"
+	        android:textStyle="bold" />
+	    <Button
+	        android:id="@+id/btnSet"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="@dimen/margin_port"
+	        android:layout_marginTop="@dimen/margin_port"
+	        android:background="@drawable/button_set"
+	        android:text="Set"
+	        android:textColor="#898989"
+	        android:textSize="@dimen/font_size"
+	        android:textStyle="bold" />
+		<TextView
+		    android:id="@+id/txtVal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="5dp"
+		    android:text="Input voltage : 0 V"
+		    android:textColor="#000000"
+		    android:textSize="@dimen/font_size" />
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/progress_bar"
+			    android:gravity="center"
+			    android:orientation="vertical" >
+			    <ProgressBar
+			        android:id="@+id/progressBar"
+			        style="?android:attr/progressBarStyleHorizontal"
+			        android:layout_width="match_parent"
+			        android:layout_height="@dimen/progress_height"
+			        android:layout_marginLeft="@dimen/progress_margin_land"
+			        android:layout_marginRight="@dimen/progress_margin_land" />
+			</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
