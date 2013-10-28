@@ -26,9 +26,8 @@ public final class R {
         public static final int button_set_pressed=0x7f020002;
         public static final int edit_text=0x7f020003;
         public static final int ic_launcher=0x7f020004;
-        public static final int icon=0x7f020005;
-        public static final int progress_bar=0x7f020006;
-        public static final int title_bar=0x7f020007;
+        public static final int progress_bar=0x7f020005;
+        public static final int title_bar=0x7f020006;
     }
     public static final class id {
         public static final int btnSet=0x7f060001;
